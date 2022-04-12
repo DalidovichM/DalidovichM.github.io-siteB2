@@ -178,7 +178,7 @@ ul{
     margin-top: 0;
 }
 #myVideo{
-    width: 100%
+    width: 100vw;
 }
 
 @media all and (max-width: 800px){
@@ -192,6 +192,9 @@ ul{
         display: flex;
         flex-direction: column-reverse;
     }
+    .mount01, .mount03{
+        flex-direction: column;
+    }
     .header{
         width: 800px;
         padding: 0;
@@ -202,6 +205,9 @@ ul{
     }
     .head1{
         left: 100px;
+    }
+    .header{
+        width: 800px;
     }
 }
 
@@ -226,5 +232,8 @@ ul{
     }
     .head1{
         left: 100px;
+    }
+    .header{
+        width: 500px;
     }
 }
