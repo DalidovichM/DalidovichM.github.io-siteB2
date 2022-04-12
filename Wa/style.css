@@ -2,7 +2,6 @@ html{
     box-sizing: border-box;
 }
 *, *::before, *::after{
-    
     display: block;
 }
 body{
@@ -12,6 +11,7 @@ body{
 }
 .container{
     padding: 15px;
+    display: flex;
 }
 .header{
     background-image: url('head.jpg');
@@ -178,7 +178,12 @@ ul{
     margin-top: 0;
 }
 #myVideo{
-    width: 100vw;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+video {
+    object-fit: contain;
 }
 
 @media all and (max-width: 800px){
@@ -210,7 +215,12 @@ ul{
         width: 800px;
     }
     #myVideo{
-        width: 800px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .name{
+        align-self: center;
     }
 }
 
@@ -240,6 +250,14 @@ ul{
         width: 500px;
     }
     #myVideo{
-        width: 500px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .pict{
+        width: 450px;
+    }
+    .name{
+        align-self: center;
     }
 }
