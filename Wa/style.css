@@ -209,6 +209,9 @@ ul{
     .header{
         width: 800px;
     }
+    #myVideo{
+        width: 800px;
+    }
 }
 
 @media all and (max-width: 500px){
@@ -234,6 +237,9 @@ ul{
         left: 100px;
     }
     .header{
+        width: 500px;
+    }
+    #myVideo{
         width: 500px;
     }
 }
