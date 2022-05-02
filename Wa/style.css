@@ -250,4 +250,18 @@ video {
         padding: 0;
         margin: 0;
     }
+    .left{
+        margin-right: 5px; 
+        flex: 1;
+        width: 100%;
+    }
+    .right{
+        margin-left: 5px;
+        flex: 1;
+        width: 100%;
+    }
+    .pict{
+        width: 100%;
+        flex: 1;
+    }
 }
