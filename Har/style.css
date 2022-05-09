@@ -1,0 +1,301 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #2d4059;
+    padding: 10px;
+}
+.item {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.top {
+    margin-right: auto;
+}
+body{
+    background-color: #d6e6f2;
+}
+body:hover {
+    background-color: #f5eee6;
+}
+.harvey {
+    display: flex;
+}
+.photo {
+    flex: 1;
+}
+.law {
+    display: flex;
+}
+.text {
+    text-transform: uppercase;
+    align-self: center;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+}
+.exp {
+    text-transform: uppercase;
+    color: #112d4e;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.exp:hover {
+    color: #07689f;
+}
+.list {
+    display: flex;
+    justify-content: space-evenly;
+}
+.branch {
+    text-transform: uppercase;
+    list-style: none;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.branch:hover {
+    background-color: #384259;
+    color: white;
+}
+.heading2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.head2 {
+    text-transform: uppercase;
+    color: #112d4e;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.head2:hover {
+    color: #07689f;
+}
+.library {
+    display: flex;
+}
+.photo2{
+    flex: 1;
+}
+.price {
+    display: flex;
+    justify-content: space-evenly;
+}
+.pr {
+    text-transform: uppercase;
+    list-style: none;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.pr:hover {
+    background-color: #384259;
+    color: white;
+}
+.heading3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.head3 {
+    text-transform: uppercase;
+    color: #112d4e;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.head3:hover {
+    color: #07689f;
+}
+.form {
+    display: flex;
+    
+}
+.inp {
+    padding: 5px;
+    width: 100%;
+}
+.inp:hover {
+    border: 1px solid blue;
+}
+.lab {
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    text-transform: uppercase;
+    background-color: #3f72af;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    cursor: help;
+    flex: 1;
+}
+.btn:hover {
+    background-color: #384259;
+}
+
+@media all and (max-width: 800px) {
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+        background-color: #2d4059;
+        width: 100%;
+        flex-wrap: wrap;
+        }
+    .item {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 10px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: smaller;
+        align-self: flex-end;
+    }
+    .top {
+        margin-right: auto;
+        font-size: smaller;
+    }
+    .harvey {
+        display: flex;
+        }
+    .photo {
+        width: 100%;
+    }
+    .library {
+        display: flex;
+    }
+    .photo2{
+        width: 100%;
+    }
+    .law{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .lawphot{
+        width: 100%;
+    }
+    .head2 {
+        align-self: center;
+    }
+    .exp {
+        align-self: center;
+    }
+    .pr{
+        align-self: center;
+    }
+    .price {
+        display: flex;
+        width: 100%;
+        padding: 0%;
+    }
+    .head3 {
+        align-self: center;
+    }
+}
+
+@media all and (max-width: 500px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .item {
+        
+        font-size: smaller;
+        align-self: flex-end;
+    }
+    .top {
+        margin-right: auto;
+        font-size: smaller;
+    }
+    .harvey {
+        display: flex;
+        width: 100%;
+    }
+    .photo {
+        margin-left: 10px;
+        flex: 1;
+    }
+    .law {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 10px;
+    }
+    .lawphot{
+        width: 100%;
+    }
+    .heading {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .exp {
+        align-self: center;
+    }
+    .list {
+        display: flex;
+        justify-content: center;
+        padding: 0%;
+    }
+    .branch {
+        align-self: center;
+    }
+    .heading3 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .form {
+        display: flex;
+        width: 100%;
+    }
+    .inp {
+        margin-left: 10px;
+    }
+    .lab {
+        margin-left: 10px;
+    }
+    .button {
+        display: flex;
+        
+        width: 100%;
+    }
+    .btn {
+        margin-left: 10px;
+    }
+    .list {
+        display: flex;
+        flex-direction: column;     
+        width: 100%;
+    }
+    .heading2 {
+        display: flex;
+        width: 100%;
+    }
+    .head2 {
+        align-self: center;
+    }
+    .library {
+        display: flex;
+        
+    }
+    .photo2{
+        flex: 1;
+        width: 100%;
+    }
+    
+    
+}
