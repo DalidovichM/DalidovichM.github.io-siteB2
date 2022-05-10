@@ -1,0 +1,65 @@
+body{
+    background-color: #FFDEDE;
+}
+h1{
+    color: #5e454b; font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+h3{
+    color: #5e454b;
+    font-family: 'Roboto', sans-serif;
+}
+.drop{
+    color: #5e454b;
+}
+.rating{
+    color: #A58FAA;
+}
+.film{
+    color: #907FA4;
+    font-family: 'Open Sans', sans-serif;
+}
+table, tr, th, td {border: #93B5C6 3px dashed;}
+table {width: 50%;}
+.btn{
+    background-color: #A58FAA;
+    padding: 10px;
+    font-size: 20px;
+    color: #5e454b;
+    border: 1px solid #5e454b;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 10%;
+    text-transform: uppercase;
+    transition-duration: 5s;
+    margin-top: 10px;
+}
+.btn:hover{
+    background-color: #93B5C6;
+    height: 70px;
+    width: 500px;
+}
+.txt{
+    font-family: 'Roboto', sans-serif;
+    color: #5e454b;
+}
+.head{
+    display: flex;
+    justify-content: center;
+}
+
+@media all and (max-width: 800px){
+    .pict{
+        width: 100%;
+    }
+    
+}
+
+@media all and (max-width: 500px){
+    .pict{
+        width: 100%;
+    }
+    .btn{
+        width: 50%;
+    }
+}
